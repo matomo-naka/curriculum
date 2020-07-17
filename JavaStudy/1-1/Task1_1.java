@@ -12,19 +12,20 @@ public class Task1_1 {
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
         int hegeInt = 50;
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
+        String hogeString = "テスト";
         // ③下記の処理について、何をしているのかコメントを記入してください
+        // double関数を使うことで与えられた値が二倍になる
         // 入力された値を二乗して算出
         double hogeDouble = 0.2;
         // ④変数 hogeInt を値「100」で上書き
         int hogeInt = 100;
-        String hogeString = "合格";
         // ⑤変数 hogeString を値「合格」で上書き
+        String hogeString = "合格";
         // ⑥変数 hogeInt の値を表示
         System.out.println(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述]
+        //　hogeString には”合格”の文字列が入っているのでそれを出力
         System.out.println(hogeString);
-
         // ⑧変数 hogeDouble の値を表示
         System.out.println(hogeDouble);
 
