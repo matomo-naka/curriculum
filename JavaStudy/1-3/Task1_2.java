@@ -30,7 +30,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // 答えは７０
+        // 配列１は左から二番目、そして配列の最後の部分を足して出力
         System.out.println(intArray[1] + intArray[4]);
 
     }
