@@ -17,7 +17,7 @@ public class Task1_5 {
         }
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
         /*
-         * i という変数が、１００以下の時、以下の実行をする。毎回iは１ずつかさんされる
+         * i という変数が、１００以下の時、以下の実行をする。毎回iは１ずつ加算される
          */
         int i = 1;
         while (i <= 100) {
@@ -27,17 +27,16 @@ public class Task1_5 {
         System.out.println();
 
 
-        // 九九表を表示
-        for (int u = 1; u <= 9; u++) {
-            System.out.println(u);
-            // １つの段を表示
-            for (int j = 1; j <= 9; j++) {
-                System.out.print((j * u));
-                System.out.println();
-            }
-            // １つの段を表示し終わったところで、改行する
-
+        // 九九表を表示 
+        for (int o = 1; o <= 9; o++) { 
+            // １つの段を表示 
+            for (int j = 1; j <= 9; j++) { 
+            System.out.print(o + "×" + j + "＝" + (o * j) + " "); 
+            } 
+            // １つの段を表示し終わったところで、改行する 
+            System.out.println();
         }
+
         /*
          * ④ Wikiに掲載されている【多重ループのプログラム例 （九九表を表示）】を参考に、
          * 行の最初に「段数」と「||」を追加したものを表示させるプログラムを作成しなさい。 1 || 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
@@ -48,6 +47,16 @@ public class Task1_5 {
          * | 32 | 40 | 48 | 56 | 64 | 72 | 9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 |
          * 81 |
          */
+        for (int u = 1; u <= 9; u++) {
+            System.out.println(u);
+            // １つの段を表示
+            for (int j = 1; j <= 9; j++) {
+                System.out.print(( u * j + " | "));
+
+            }
+            // １つの段を表示し終わったところで、改行する
+            System.out.println();
+        }
 
     }
 }
