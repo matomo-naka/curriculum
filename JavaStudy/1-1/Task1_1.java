@@ -14,8 +14,8 @@ public class Task1_1 {
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
         String hogeString = "テスト";
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // double関数を使うことで与えられた値が二倍になる
-        // 入力された値を二乗して算出
+        // ③下記の処理について、何をしているのかコメントを記入してください
+        // floatよりdoubleの方がさらに細かい数字で算出できる
         double hogeDouble = 0.2;
         // ④変数 hogeInt を値「100」で上書き
         int hogeInt = 100;
