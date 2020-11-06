@@ -48,7 +48,8 @@ public class Task1_5 {
          * 81 |
          */
         for (int u = 1; u <= 9; u++) {
-            System.out.println(u);
+            System.out.println(u + "|");
+            // 最初の段に数字と｜を表示させる
             // １つの段を表示
             for (int j = 1; j <= 9; j++) {
                 System.out.print(( u * j + " | "));
